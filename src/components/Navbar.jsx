@@ -1,0 +1,28 @@
+import { Link, Outlet } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+
+export default function Navbar() {
+    return (
+        <div className="text-white">
+            <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+            <nav className="flex justify-between items-center">
+                <h1 className="container text-3xl">
+                    <Link to="/" className="w-max">Aidan Roig</Link>
+                </h1>
+                <div className="container flex justify-around items-center mx-10">
+                    <Link to="/about">About Me</Link>
+                    <Link to="/experience">Experience</Link>
+                    <Link to="/projects">Projects</Link>
+                </div>
+                <div className="container flex justify-end items-center gap-4 mr-5">
+                    <FaLinkedin size={25}/>
+                    <FaGithub size={25}/>
+                    <MdOutlineEmail size={25}/>
+                </div>
+            </nav>
+            <Outlet />
+        </div>
+    );
+}
