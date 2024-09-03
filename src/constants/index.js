@@ -9,14 +9,18 @@ export const ABOUT_TEXT = `some about text`;
 
 export const EXPERIENCES = [
     {
-        year: "insert year",
-        role: "insert role",
-        company: "insert company",
-        description: "insert description",
+        date: "May 2023 - August 2023",
+        role: "Software Developer Intern",
+        company: "Zoot Enterprises",
+        description: `During my tech internship, I gained hands-on experience in software
+         development, working closely with senior engineers to design and implement new
+          features. I also had the opportunity to collaborate with cross-functional teams,
+           enhancing my problem-solving and communication skills. This internship solidified 
+           my passion for technology and provided me with valuable industry insights.`,
         technologies: ["tech 1", "tech 2"]
     },
     {
-        year: "insert year",
+        date: "insert year",
         role: "insert role",
         company: "insert company",
         description: "insert description",

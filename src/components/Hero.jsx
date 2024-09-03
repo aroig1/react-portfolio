@@ -2,7 +2,7 @@ import { HERO_CONTENT } from "../constants"
 
 export default function Hero() {
     return (
-        <div className="border-b border-neutral-900 pb-4 lg:mb-35 lg:mx-32 flex flex-wrap">
+        <div className="border-b border-neutral-900 pb-4 lg:mb-35 lg:mx-32 flex flex-wrap items-center justify-center lg:justify-between">
             <div className="flex flex-col items-center lg:items-start w-full lg:w-1/2">
                 <h1 className="py-10 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Aidan Roig</h1>
                 <h2 className="pb-4 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 
@@ -12,7 +12,7 @@ export default function Hero() {
                 </p>
             </div>
             <img src="src/assets/HeroPic.JPG" alt="picture of me" 
-            className="w-3/4 h-auto lg:w-2/5"/>
+            className="rounded-3xl w-3/4 lg:w-2/5 lg:mt-12"/>
         </div>
     )
 }
