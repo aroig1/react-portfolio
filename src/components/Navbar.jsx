@@ -7,8 +7,8 @@ export default function Navbar() {
     return (
         <div className="text-white">
             <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-            <nav className="flex justify-between items-center">
-                <h1 className="container text-3xl">
+            <nav className="flex justify-between items-center p-4">
+                <h1 className="container text-2xl">
                     <Link to="/" className="w-max">Aidan Roig</Link>
                 </h1>
                 <div className="container flex justify-around items-center mx-10">
@@ -16,7 +16,7 @@ export default function Navbar() {
                     <Link to="/experience">Experience</Link>
                     <Link to="/projects">Projects</Link>
                 </div>
-                <div className="container flex justify-end items-center gap-4 mr-5">
+                <div className="container flex justify-end items-center gap-5 mr-5">
                     <FaLinkedin size={25}/>
                     <FaGithub size={25}/>
                     <MdOutlineEmail size={25}/>
