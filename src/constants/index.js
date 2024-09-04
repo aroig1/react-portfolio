@@ -9,7 +9,18 @@ export const ABOUT_TEXT = `some about text`;
 
 export const EXPERIENCES = [
     {
-        date: "May 2023 - August 2023",
+        date: "May 2024 - August 2024",
+        role: "Test Automation Developer Intern",
+        company: "Blue Cross Blue Shield",
+        description: `During my tech internship, I gained hands-on experience in software
+         development, working closely with senior engineers to design and implement new
+          features. I also had the opportunity to collaborate with cross-functional teams,
+           enhancing my problem-solving and communication skills. This internship solidified 
+           my passion for technology and provided me with valuable industry insights.`,
+        technologies: ["Java", "Cucumber", "Selenium", "SQL", "Azure DevOps"]
+    },
+    {
+        date: "May 2023 - July 2023",
         role: "Software Developer Intern",
         company: "Zoot Enterprises",
         description: `During my tech internship, I gained hands-on experience in software
@@ -17,34 +28,31 @@ export const EXPERIENCES = [
           features. I also had the opportunity to collaborate with cross-functional teams,
            enhancing my problem-solving and communication skills. This internship solidified 
            my passion for technology and provided me with valuable industry insights.`,
-        technologies: ["tech 1", "tech 2"]
-    },
-    {
-        date: "insert year",
-        role: "insert role",
-        company: "insert company",
-        description: "insert description",
-        technologies: ["tech 1", "tech 2"]
+        technologies: ["Python", "Linux", "Jenkins", "Ansible", "YAML", "JSON", "Pandas"]
     },
 ];
 
-export const PROJECTS = [
+export const TOP_PROJECTS = [
     {
-        title: "insert title",
-        description: `insert description`,
-        image: "insert image through import",
-        technologies: ["tech 1", "tech 2"]
+        title: "Scholarship Management Application",
+        description: `Full stack web application that allows students, teachers,
+                and admins to create, manage, apply to, and accept scholarships.`,
+        image: "src/assets/UASAMS.PNG",
+        technologies: ["HTML", "CSS", "Javascript", "Typescript", "SvelteKit", "SQL"]
     },
     {
-        title: "insert title",
-        description: `insert description`,
-        image: "insert image through import",
-        technologies: ["tech 1", "tech 2"]
+        title: "Tanks Game",
+        description: `2D tanks game where the player destroys CPU enemy tanks with a 
+            variety of abilities across multiple levels.`,
+        image: "src/assets/tanks.PNG",
+        technologies: ["Python", "Pygame", "Pathfinding", "OOP", "JSON"]
     },
     {
-        title: "insert title",
-        description: `insert description`,
-        image: "insert image through import",
-        technologies: ["tech 1", "tech 2"]
+        title: "FPGA based Pipelined Datapath with Searching Algorithm",
+        description: `Designed, implemented, and validated a five-stage 
+            pipelined data path for the MIPS 32-bit ISA on an FPGA. Implemented 
+            an image processing algorithm in MIPS that was executed on the FPGA.`,
+        image: "src/assets/pipelinedDatapath.PNG",
+        technologies: ["MIPS Assembly Language", "Verilog", "FPGA"]
     },
 ];

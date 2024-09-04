@@ -17,9 +17,15 @@ export default function Navbar() {
                     <Link to="/projects">Projects</Link>
                 </div>
                 <div className="container flex justify-end items-center gap-5 mr-5">
-                    <FaLinkedin size={25}/>
-                    <FaGithub size={25}/>
-                    <MdOutlineEmail size={25}/>
+                    <a href="https://www.linkedin.com/in/aidan-javier-roig/">
+                        <FaLinkedin size={25}/>
+                    </a>
+                    <a href="https://github.com/aroig1">
+                        <FaGithub size={25}/>
+                    </a>
+                    <a href="mailto:aroig@arizona.edu">
+                        <MdOutlineEmail size={25}/>
+                    </a>
                 </div>
             </nav>
             <Outlet />
