@@ -13,7 +13,7 @@ export function ShortProjects() {
                         <p className="text-gray-400 tracking-tight mb-2">{project.description}</p>
                         <div className="flex flex-wrap items-center">
                             {project.technologies.map((tech) => (
-                                <span className="text-sm mr-4 mb-4 px-2 py-1 rounded-xl bg-neutral-900 text-purple-700 text-center">{tech}</span>
+                                <span className="text-sm mr-4 mb-4 px-2 py-1 rounded-xl bg-neutral-900 text-purple-600 text-center">{tech}</span>
                             ))}
                         </div>
                     </div>
