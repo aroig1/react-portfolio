@@ -21,7 +21,7 @@ export default function Education() {
                             ))}
                         </ul>
                         <h4>Relevant Coursework</h4>
-                        <div className="flex flex-wrap justify-start my-4 gap-x-2 gap-y-4">
+                        <div className="flex flex-wrap justify-start my-4 gap-2 lg:gap-y-4">
                             {education.coursework.map((course) => (
                                 <span className="py-1 px-4 rounded-xl bg-neutral-900 text-center text-sm text-gray-400">{course}</span>
                             ))}

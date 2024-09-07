@@ -8,6 +8,7 @@ export default {
     extend: {
       maxHeight: {
         '3/4': '75%',
+        '128': '32rem',
       }
     },
   },

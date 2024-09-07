@@ -1,10 +1,16 @@
 import React from 'react';
+import Introduction from '../components/Introduction';
+import Contact from '../components/Contact';
+import FuturePlan from '../components/FuturePlan';
+import OutsideClass from '../components/OutsideClass';
 
 const AboutMe = () => {
   return (
     <div>
-        <h1>About Me Page</h1>
-        <p>This is the About page!</p>
+        <Introduction />
+        <FuturePlan />
+        <OutsideClass />
+        <Contact />
     </div>
   );
 };

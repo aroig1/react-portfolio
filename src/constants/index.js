@@ -5,7 +5,37 @@ export const HERO_CONTENT = `Hello! I'm Aidan Roig and I am a software engineeri
                 impact working in the tech industry. I am a great leader, but most importantly I have a
                 great work ethic which allows me to overcome any obstacles in order to reach my goals.`;
 
-export const ABOUT_TEXT = `some about text`;
+export const ABOUT_TEXT = [
+    `Hello! I'm Aidan Roig and I am a software engineering 
+    major at the University of Arizona. I currently live in Tucson, Arizona, 
+    but I originally grew up in Flagstaff, Arizona.`,
+    `Throughout this portfolio 
+    I hope to express my strong drive to gain experience and make an
+    impact working in the tech industry. I am a great leader, but most importantly I have a
+    great work ethic which allows me to overcome any obstacles in order to reach my goals.`,
+];
+
+export const FUTURE_PLAN = [
+    `In 10 years, I see myself managing a software engineering team at a larger company. After completing 
+    my bachelor's degree while achieving the Dean's list for all 4 years, I plan on joining a tech 
+    company where I will work within the software department. After gaining experience as a developer, 
+    I want to work my way up into a management position where I will oversee larger projects. I know 
+    I'd be a good fit in management because I am a natural leader in projects as I am proficient at 
+    strategizing the best and most efficient way to complete a task. Even in difficult moments, my work 
+    ethic helps me to perservere through any problems and ultimately come up successful. I also want to 
+    work within management because it will allow me to work with multiple different engineering 
+    disciplines and I believe that it would be a fun challenge to properly integrate all the different 
+    groups into one working unit.`,
+];
+
+export const OUTSIDE_CLASS = [
+    `Outside of class I like to try and stay as physically fit as possible. My favorite ways of staying 
+    active are through weight lifting and playing basketball. I've been playing basketball since elementary 
+    school and have been lifting weights for 4+ years.`,
+    `I also enjoy various hands-on activities such as working on cars and playing guitar. I spent several 
+    years rebuilding an old 1991 Mazda Miata before eventually selling it. More recently I've been focused 
+    on learning how to play different songs on my acoustic guitar.`
+]
 
 export const EDUCATION = [
     {
@@ -233,7 +263,7 @@ export const PROJECTS = [
         ],
         image: "src/assets/tic-tac-toe.PNG",
         video: "",
-        technologies: ["Python", "Tkinter", "API", "ChatGPT", "APIs"],
+        technologies: ["Python", "Tkinter", "ChatGPT", "APIs"],
         github: "https://github.com/aroig1/Tic-Tac-Toe"
     },
     {
