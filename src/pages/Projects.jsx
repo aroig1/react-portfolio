@@ -1,9 +1,12 @@
 import React from 'react';
+import { AllProjects } from '../components/Project';
+import Contact from '../components/Contact';
 
 const Projects = () => {
   return (
     <div>
-        <h1>Projects Page</h1>
+        <AllProjects />
+        <Contact />
     </div>
   );
 };

@@ -54,8 +54,7 @@ export function Skills() {
     const IMAGE_SIZE = 50;
     return (
         <div className="border-b border-neutral-900 pb-4 mx-6 lg:mb-35 lg:mx-32">
-            <h2 className="text-center text-4xl my-8">Skills</h2>
-            <h3 className="text-center text-3xl my-4">Languages</h3>
+            <h2 className="text-center text-4xl my-4">Languages</h2>
             <div className="flex flex-wrap justify-center mx-16 gap-5 gap-y-8 lg:gap-14 my-8 text-gray-400">
                 <div className="flex flex-col items-center gap-1">
                     <FaPython className="text-yellow-400" size={IMAGE_SIZE}/>
@@ -90,7 +89,7 @@ export function Skills() {
                     <span>Javascript</span>
                 </div>
             </div>
-            <h3 className="text-center text-3xl my-4">Technologies</h3>
+            <h2 className="text-center text-4xl my-4">Technologies</h2>
             <div className="flex flex-wrap justify-center mx-16 gap-x-5 gap-y-8 lg:gap-x-14 my-8 text-gray-400">
                 <div className="flex flex-col items-center gap-1">
                     <FaReact className="text-blue-400" size={IMAGE_SIZE}/>
@@ -161,10 +160,10 @@ export function Skills() {
                     <span>Bitbucket</span>
                 </div>
             </div>
-            <h3 className="text-center text-3xl my-4">Concepts</h3>
+            <h2 className="text-center text-4xl my-4">Concepts</h2>
             <div className="flex flex-wrap justify-center mx-16 gap-x-2 gap-y-4 my-8 lg:gap-5 text-gray-400">
-                {CONCEPTS.map((concept) => (
-                    <span className="py-1 px-4 rounded-xl bg-neutral-900 text-center">{concept}</span>
+                {CONCEPTS.map((concept, index) => (
+                    <span key={index} className="py-1 px-4 rounded-xl bg-neutral-900 text-center">{concept}</span>
                 ))}
             </div>
         </div>

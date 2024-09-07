@@ -4,8 +4,8 @@ export default function Education() {
     return (
         <div className="border-b border-neutral-900 my-8 mx-12 pb-4 lg:mx-32 lg:px-16">
             <h2 className="text-center text-4xl mb-8">Education</h2>
-            {EDUCATION.map((education) => (
-                <div className="container flex flex-wrap lg:justify-center">
+            {EDUCATION.map((education, index) => (
+                <div key={index} className="container flex flex-wrap lg:justify-center">
                     <img src={education.logo} alt="U of A logo" 
                     className="hidden lg:inline-block w-12 h-12 mr-4"/>
                     <div className="mr-36">
