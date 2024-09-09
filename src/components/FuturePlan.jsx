@@ -7,7 +7,7 @@ export default function FuturePlan() {
             <motion.img initial={{x: -100, opacity: 0}} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1, delay: 0.25}}
                 src="/images/sunsetPic.JPG" alt="picture of me" 
             className="rounded-3xl w-4/5 lg:w-2/5 object-cover max-h-128" /> 
-            <motion.div initial={{x: 100, opacity: 0}} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1, delay: 0.75}}
+            <motion.div initial={{x: 50, opacity: 0}} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1, delay: 0.75}}
                 className="flex flex-col items-center lg:items-start w-full lg:w-1/2">
                 <h1 className="mt-4 py-2 lg:py-4 text-4xl font-thin tracking-tight lg:text-6xl">
                     10 Year Plan

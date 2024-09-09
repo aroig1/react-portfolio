@@ -50,7 +50,7 @@ function Project({project, index, visible, toggleVisibility}) {
             className="flex flex-wrap items-center justify-center mb-6 gap-x-16 
             border-solid border-transparent hover:border-purple-600 border-2 rounded-3xl p-4">
                 <ProjectImageSmall project={project} />
-                <motion.div initial={{x: 100, opacity: 0}} whileInView={{x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1, delay: 0.5}}
+                <motion.div initial={{x: 50, opacity: 0}} whileInView={{x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1, delay: 0.5}}
                     className="lg:w-1/2">
                     <h3 className="text-center lg:text-left mb-2">{project.title}</h3>
                     <p className="text-gray-400 tracking-tight mb-2">{project.description}</p>

@@ -15,7 +15,7 @@ export default function Hero() {
                     {HERO_CONTENT}
                 </motion.p>
             </div>
-            <motion.img initial={{x: 100, opacity: 0}} animate={{ x: 0, opacity: 1 }} transition={{duration: 1}}
+            <motion.img initial={{x: 50, opacity: 0}} animate={{ x: 0, opacity: 1 }} transition={{duration: 1}}
                 src="/images/HeroPic.JPG" alt="picture of me" 
                 className="rounded-3xl w-3/4 lg:w-2/5 lg:mt-12"/>
         </div>

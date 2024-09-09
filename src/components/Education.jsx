@@ -16,7 +16,7 @@ export default function Education() {
                         <h3 className="text-lg"><em>{education.school}</em></h3>
                         <span className="text-gray-400">{education.location}</span>
                     </motion.div>
-                    <motion.div initial={{x: 100, opacity: 0}} animate={{ x: 0, opacity: 1 }} transition={{duration: 1, delay: 0.5}}
+                    <motion.div initial={{x: 50, opacity: 0}} animate={{ x: 0, opacity: 1 }} transition={{duration: 1, delay: 0.5}}
                         className="lg:flex-1">
                         <h3 className="text-lg tracking-tight">{education.degree}</h3>
                         <span className="text-gray-400">{education.date}</span>

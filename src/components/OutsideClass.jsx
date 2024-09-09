@@ -15,7 +15,7 @@ export default function OutsideClass() {
                     </p>
                 ))}
             </motion.div>
-            <motion.img initial={{x: 100, opacity: 0}} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1, delay: 0.5}}
+            <motion.img initial={{x: 50, opacity: 0}} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1, delay: 0.5}}
                 src="/images/dunkingPic.jpg" alt="picture of me" 
             className="rounded-3xl w-4/5 lg:w-2/5 lg:mt-12 object-cover object-center max-h-128" /> 
         </div>
