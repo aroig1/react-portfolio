@@ -16,7 +16,7 @@ export default function Introduction() {
                 ))}
             </motion.div>
             <motion.img initial={{x: 100, opacity: 0}} animate={{ x: 0, opacity: 1 }} transition={{duration: 1, delay: 0.5}}
-                src="./src/assets/planPic.JPG" alt="picture of me" 
+                src="/images/planPic.JPG" alt="picture of me" 
                 className="rounded-3xl w-4/5 lg:w-2/5 lg:mt-12 object-cover max-h-128" /> 
         </div>
     )
