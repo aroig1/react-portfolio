@@ -40,7 +40,7 @@ export const EDUCATION = [
     {
         school: "University of Arizona",
         location: "Tucson, AZ",
-        logo: "./src/assets/UofALogo.png",
+        logo: "/src/assets/UofALogo.png",
         degree: "Bachelor of Science: Software Engineering",
         date: "Expected in May 2025",
         accomplishments: ["3.93 GPA", "Dean's List [Fall 2021 - Spring 2024"],
@@ -134,7 +134,7 @@ export const PROJECTS = [
             utility functions which contained SQL queries to retrieve and save data to our 
             database.`
         ],
-        image: "./src/assets/UASAMS.PNG",
+        image: "/src/assets/UASAMS.PNG",
         video: "",
         technologies: ["HTML", "CSS", "Javascript", "Typescript", "SvelteKit", "SQL"],
         github: "https://github.com/aroig1/Scholarship-Application-Management-System"
@@ -158,7 +158,7 @@ export const PROJECTS = [
             I implemented was loading levels through a json file, which made adding new 
             levels much quicker and easier. Lastly, I got to have some fun adding background 
             music and sound effects that matched those in the original game.`],
-        image: "./src/assets/tanks.PNG",
+        image: "/src/assets/tanks.PNG",
         video: "",
         technologies: ["Python", "Pygame", "Pathfinding", "OOP", "JSON"],
         github: "https://github.com/aroig1/Tanks"
@@ -174,7 +174,7 @@ export const PROJECTS = [
             execution stages (forwarding is not shown on this diagram). In addition, we 
             implemented an image processing algorithm in MIPS ISA and executed on the FPGA 
             based emulation of the pipelined processor on the FPGA.`],
-        image: "./src/assets/pipelinedDatapath.PNG",
+        image: "/src/assets/pipelinedDatapath.PNG",
         video: "",
         technologies: ["MIPS Assembly Language", "Verilog", "FPGA"],
         github: "https://github.com/aroig1/Pipelined_Datapath"
@@ -198,7 +198,7 @@ export const PROJECTS = [
             each time they were generated. Lastly, I was able to add a scoreboard 
             that keeps track of both your highest and current score, as well as a 
             simple medal system that appears depending on your score.`],
-        image: "./src/assets/flappybird.PNG",
+        image: "/src/assets/flappybird.PNG",
         video: "",
         technologies: ["Python", "Pygame", "OOP"],
         github: "https://github.com/aroig1/FlappyBird"
@@ -215,7 +215,7 @@ export const PROJECTS = [
             to be able to create my own version of this AI by simply calling to 
             their API, and I should be able to apply this same concept to other 
             Projects in order to further improve them.`],
-        image: "./src/assets/AidanGPT.PNG",
+        image: "/src/assets/AidanGPT.PNG",
         video: "",
         technologies: ["HTML", "CSS", "Javascript", "ChatGPT", "APIs"],
         github: "https://github.com/aroig1/AidanGPT"
@@ -235,7 +235,7 @@ export const PROJECTS = [
             in order to create a clickable dropdown menu for mobile devices.`,
             `This older version of my porfolio is still live at: https://aroig1.github.io/Personal-Website`
         ],
-        image: "./src/assets/oldWebsite.PNG",
+        image: "/src/assets/oldWebsite.PNG",
         video: "",
         technologies: ["HTML", "CSS", "Javascript"],
         github: "https://github.com/aroig1/Personal-Website"
@@ -259,7 +259,7 @@ export const PROJECTS = [
             a true AI. This was a fun way to apply my new experience in openai's 
             API even though it turns out ChatGPT is not very good at Tic Tac Toe.`
         ],
-        image: "./src/assets/tic-tac-toe.PNG",
+        image: "/src/assets/tic-tac-toe.PNG",
         video: "",
         technologies: ["Python", "Tkinter", "ChatGPT", "APIs"],
         github: "https://github.com/aroig1/Tic-Tac-Toe"
@@ -295,7 +295,7 @@ export const PROJECTS = [
             more or less light. I then programmed the motor to rotate 
             accordingly in the direction which was determined to be of 
             greater sunlight.`],
-        image: "./src/assets/solar-tracker.PNG",
+        image: "/src/assets/solar-tracker.PNG",
         video: "",
         technologies: ["Arduino", "Embedded"],
         github: null
@@ -324,7 +324,7 @@ export const PROJECTS = [
             ability to manage dynamicallly allocated data through the 
             use of linked lists and an overall understanding of the c 
             programming language.`],
-        image: "./src/assets/Uno.PNG",
+        image: "/src/assets/Uno.PNG",
         video: "",
         technologies: ["C", "Dynamic Memory Allocation"],
         github: "https://github.com/aroig1/Uno"
