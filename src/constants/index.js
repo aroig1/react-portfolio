@@ -1,9 +1,8 @@
-export const HERO_CONTENT = `Hello! I'm Aidan Roig and I am a software engineering 
-                major at the University of Arizona. I currently live in Tucson, Arizona, 
-                but I originally grew up in Flagstaff, Arizona. Throughout this portfolio 
-                I hope to express my strong drive to gain experience and make an
-                impact working in the tech industry. I am a great leader, but most importantly I have a
-                great work ethic which allows me to overcome any obstacles in order to reach my goals.`;
+export const HERO_CONTENT = `I’m an enthusiastic software engineering student at the University of 
+    Arizona, graduating in May 2025. With a strong passion for building efficient and innovative 
+    solutions, I have developed skills in full-stack development, software design, and embedded software. 
+    I'm actively seeking entry-level full-time opportunities where I can apply my expertise and grow 
+    within a dynamic team.`;
 
 export const ABOUT_TEXT = [
     `Hello! I'm Aidan Roig and I am a software engineering 
@@ -63,11 +62,10 @@ export const EXPERIENCES = [
         role: "Test Automation Developer Intern",
         company: "Blue Cross Blue Shield",
         location: "Phoenix, AZ",
-        description: `During my tech internship, I gained hands-on experience in software
-         development, working closely with senior engineers to design and implement new
-          features. I also had the opportunity to collaborate with cross-functional teams,
-           enhancing my problem-solving and communication skills. This internship solidified 
-           my passion for technology and provided me with valuable industry insights.`,
+        description: `During my internship Blue Cross Blue Shield, I gained hands-on experience in automated
+            End-to-End testing using Java Selenium. I worked closely with senior developers to design, maintain, 
+            and execute tets. I also had the opportunity to collaborate with cross-functional teams,
+            enhancing my problem-solving and communication skills.`,
         responsibilities: [`Assisted in the development of automated testing within the 
             Testing Center of Excellence (TCoE) team.`,
             `Created, Executed, and maintained test suites focused on 
@@ -83,11 +81,11 @@ export const EXPERIENCES = [
         role: "Software Developer Intern",
         company: "Zoot Enterprises",
         location: "Bozeman, MT",
-        description: `During my tech internship, I gained hands-on experience in software
-         development, working closely with senior engineers to design and implement new
-          features. I also had the opportunity to collaborate with cross-functional teams,
-           enhancing my problem-solving and communication skills. This internship solidified 
-           my passion for technology and provided me with valuable industry insights.`,
+        description: `During my internship with Zoot Enterprises, I gained experience 
+            working in an agile based work environment. I got to work with several new tools
+            aimed towards allowing development and deployment of Python code within Linux 
+            environments. I was able to complete the full process for a project from development
+            to QA testing to deployment.`,
         responsibilities: [`Worked within the Core Software Integration (CSI) team who 
             develops the backend and cybersecurity portion of Zoot’s 
             automated financial decision software.`,
