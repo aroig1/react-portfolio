@@ -13,7 +13,7 @@ export function ShortExperiences() {
                         <h3><em>{experience.company}</em></h3>
                         <span className="text-gray-400">{experience.date}</span>
                     </motion.div>
-                    <motion.div initial={{x: 150, opacity: 0}} whileInView={{x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1}}
+                    <motion.div initial={{x: 50, opacity: 0}} whileInView={{x: 0, opacity: 1 }} viewport={{ once: true }} transition={{duration: 1}}
                         className="lg:w-1/2">
                         <h3 className="mb-2">{experience.role}</h3>
                         <p className="text-gray-400 tracking-tight mb-2">{experience.description}</p>
