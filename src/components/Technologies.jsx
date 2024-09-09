@@ -111,7 +111,7 @@ export function Skills() {
                     <span>MIPS Assembly</span>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.25 }} className="flex flex-col items-center gap-1">
-                    <img src="src/assets/verilogLogo.png" alt="verilog logo" width={IMAGE_SIZE} height={IMAGE_SIZE}/>
+                    <img src="./src/assets/verilogLogo.png" alt="verilog logo" width={IMAGE_SIZE} height={IMAGE_SIZE}/>
                     <span>Verilog</span>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.25 }} className="flex flex-col items-center gap-1">
