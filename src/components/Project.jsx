@@ -66,7 +66,7 @@ function Project({project, index, visible, toggleVisibility}) {
                     <motion.div initial={{opacity: 0}} animate={{opacity: 1 }} transition={{duration: 0.5}}
                         className="w-11/12 lg:w-3/5 bg-neutral-900 p-4 lg:p-8 rounded-3xl border-4 
                     border-purple-600 overflow-auto max-h-3/4 flex flex-col">
-                        <ProjectImageLarge project={project} />
+                        <ProjectVideo project={project} />
                         <h2 className="text-center text-2xl lg:text-3xl my-2 lg:my-4">{project.title}</h2>
                         {project.paragraphs.map((text, i) => (
                             <p key={i} className="text-gray-300 mt-2 lg:mt-4 text-sm lg:text-md">{text}</p>
@@ -109,6 +109,24 @@ function Github({project}) {
             <a href={project.github} className="self-center">
                 <FaGithub size={50} className="hover:text-purple-500"/>
             </a>
+        )
+    }
+}
+
+function ProjectVideo({project}) {
+    if (project.video != null) {
+        return (
+            <video
+                src={project.video}
+                poster={project.image}
+                controls
+                className="object-contain max-h-96"
+            />
+        )
+    }
+    else {
+        return (
+            <ProjectImageLarge project={project} />
         )
     }
 }

@@ -135,7 +135,7 @@ export const PROJECTS = [
             database.`
         ],
         image: "/images/UASAMS.PNG",
-        video: "",
+        video: "/videos/UASAMS_Demo.mp4",
         technologies: ["HTML", "CSS", "Javascript", "Typescript", "SvelteKit", "SQL"],
         github: "https://github.com/aroig1/Scholarship-Application-Management-System"
     },
@@ -159,7 +159,7 @@ export const PROJECTS = [
             levels much quicker and easier. Lastly, I got to have some fun adding background 
             music and sound effects that matched those in the original game.`],
         image: "/images/tanks.PNG",
-        video: "",
+        video: "/videos/tanksVideo.mp4",
         technologies: ["Python", "Pygame", "Pathfinding", "OOP", "JSON"],
         github: "https://github.com/aroig1/Tanks"
     },
@@ -175,7 +175,7 @@ export const PROJECTS = [
             implemented an image processing algorithm in MIPS ISA and executed on the FPGA 
             based emulation of the pipelined processor on the FPGA.`],
         image: "/images/pipelinedDatapath.PNG",
-        video: "",
+        video: null,
         technologies: ["MIPS Assembly Language", "Verilog", "FPGA"],
         github: "https://github.com/aroig1/Pipelined_Datapath"
     },
@@ -199,7 +199,7 @@ export const PROJECTS = [
             that keeps track of both your highest and current score, as well as a 
             simple medal system that appears depending on your score.`],
         image: "/images/flappybird.PNG",
-        video: "",
+        video: "/videos/flappybird.mp4",
         technologies: ["Python", "Pygame", "OOP"],
         github: "https://github.com/aroig1/FlappyBird"
     },
@@ -216,7 +216,7 @@ export const PROJECTS = [
             their API, and I should be able to apply this same concept to other 
             Projects in order to further improve them.`],
         image: "/images/AidanGPT.PNG",
-        video: "",
+        video: "/videos/AidanGPT.mp4",
         technologies: ["HTML", "CSS", "Javascript", "ChatGPT", "APIs"],
         github: "https://github.com/aroig1/AidanGPT"
     },
@@ -236,7 +236,7 @@ export const PROJECTS = [
             `This older version of my porfolio is still live at: https://aroig1.github.io/Personal-Website`
         ],
         image: "/images/oldWebsite.PNG",
-        video: "",
+        video: null,
         technologies: ["HTML", "CSS", "Javascript"],
         github: "https://github.com/aroig1/Personal-Website"
     },
@@ -260,7 +260,7 @@ export const PROJECTS = [
             API even though it turns out ChatGPT is not very good at Tic Tac Toe.`
         ],
         image: "/images/tic-tac-toe.PNG",
-        video: "",
+        video: "/videos/Tic-Tac-Toe Vid.mp4",
         technologies: ["Python", "Tkinter", "ChatGPT", "APIs"],
         github: "https://github.com/aroig1/Tic-Tac-Toe"
     },
@@ -277,7 +277,7 @@ export const PROJECTS = [
             programming and create a program which can vary greatly depending 
             on the input data.`],
         image: null,
-        video: "",
+        video: null,
         technologies: ["C++", "OOP"],
         github: "https://github.com/aroig1/Vehicle-Position-Simulator"
     },
@@ -296,7 +296,7 @@ export const PROJECTS = [
             accordingly in the direction which was determined to be of 
             greater sunlight.`],
         image: "/images/solar-tracker.PNG",
-        video: "",
+        video: "/videos/solar tracker (edited).mp4",
         technologies: ["Arduino", "Embedded"],
         github: null
     },
@@ -310,7 +310,7 @@ export const PROJECTS = [
             counting system. This program displays my ability to code using 
             an object oriented programming style.`],
         image: "/images/alien-invasion.PNG",
-        video: "",
+        video: "/videos/Alien Invasion video.mp4",
         technologies: ["Python", "Pygame", "OOP"],
         github: "https://github.com/aroig1/Alien-Invasion-Game"
     },
@@ -325,7 +325,7 @@ export const PROJECTS = [
             use of linked lists and an overall understanding of the c 
             programming language.`],
         image: "/images/Uno.PNG",
-        video: "",
+        video: null,
         technologies: ["C", "Dynamic Memory Allocation"],
         github: "https://github.com/aroig1/Uno"
     }
