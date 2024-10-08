@@ -64,7 +64,7 @@ export const EXPERIENCES = [
         location: "Phoenix, AZ",
         description: `During my internship Blue Cross Blue Shield, I gained hands-on experience in automated
             End-to-End testing using Java Selenium. I worked closely with senior developers to design, maintain, 
-            and execute tets. I also had the opportunity to collaborate with cross-functional teams,
+            and execute tests. I also had the opportunity to collaborate with cross-functional teams,
             enhancing my problem-solving and communication skills.`,
         responsibilities: [`Assisted in the development of automated testing within the 
             Testing Center of Excellence (TCoE) team.`,
