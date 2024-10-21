@@ -104,6 +104,42 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
+        title: "NBA Game Predictor",
+        description: `This project leverages the Scikit-learn Python library to train 
+            models and predict games results using various kinds of machine learning models. 
+            These models were trained using historic NBA game data scraped from the
+            nba stats website using Selenium.`,
+        paragraphs: [`For this project I wanted to use machine learning algorithms to 
+            predict the winner of NBA games. In order to do this I divided the task 
+            into 3 steps: Web scrape NBA game stats data, Pre-process the data with pandas, 
+            and Use Scikit-learn library to train models`,
+            `I web scraped box score data for each game using the Selenium library. Using 
+            the Selenium WebDriver I was able to automate the driver to go to the website 
+            URL for each team and parse through the team's box score stats for each game 
+            they played. I did this for each of the 30 NBA teams for 5 seasons starting 
+            at 2019-20 and ending at 2023-24.`,
+            `Next I had to modify this data to be relevant for predicting. I did this by 
+            first changing the data from the stats for that particular game to instead be 
+            that teams season average for each stat prior to playing that game. Once that 
+            was complete, I created an algorithm to match the teams stats to their 
+            opponents stats at the time of the game and place them on one line of a csv, 
+            splitting them up as home or away team stats. This was due to the fact that 
+            the scraped data only had the box scores for one team for each game (based on 
+            the team URL I was using), instead of the stats for both teams.`,
+            `Lastly, I used Logistic Regression, SVM, and KNN models from the Scikit-learn 
+            library to train and predict games based on the data. After pre-processing I 
+            had a total >11,000 games of data and I split my training data to be ~10,000 
+            games with testing at ~1,000 games. My goal was to predict with >75% accuracy, 
+            but to my disappointment the Logistic Regression only had an accuracy of ~64%. 
+            However, I was much happier with KNN which had an accuracy of ~96% and RBF SVM 
+            which had an accuracy of ~93%.`
+        ],
+        image: null,
+        video: null,
+        technologies: ["Python", "Scikit-Learn", "Machine Learning", "Selenium", "Pandas", "SVM", "Logistic Regression", "KNN"],
+        github: "https://github.com/aroig1/NBA-Predictor"
+    },
+    {
         title: "Scholarship Management Application",
         description: `Full stack web application that allows students, teachers,
             and admins to create, manage, apply to, and accept scholarships.`,
