@@ -104,6 +104,82 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
+        title: "Autonomous Drone",
+        description: `Autonomous drone that flies given a GPS input from a user from a 
+            ground control station. The drone uses Camera and LiDAR sensory data to detect 
+            and avoid any obstacles in its path.`,
+        paragraphs: [`This project is an autonomous drone that flies to a destination provided 
+            by a user from a ground control station. The drone then uses camera and LiDAR sensory 
+            information to detect and avoid any obstacles in its path. This project is part of an 
+            interdisciplinary senior design course (ENGR 498) and contains 7 total team members: 
+            2 software engineers, 2 optical engineers, 1 electrical and computer engineer, and 
+            2 mechanical/aerospace engineers.`,
+            `The embedded system for this drone consists of 5 main parts: The drone kit, the flight 
+            controller (Pixhawk), the on-board processor (Jetson Orin Nano), the Camera, and the LiDAR. 
+            The camera will feed video frames to the on-board processor which will be processed using 
+            image analysis methods via the OpenCV library to detect and outline objects. Similarly, the 
+            LiDAR will return a series of 1D points containing distance and angle which will be organized 
+            to make up a cross-air pointed at the center of the drone's hit box. Both of these sets of sensory 
+            data will be processed by the on-board processor then a decision will be made on whether the drone 
+            needs to stop and reroute or not. This decision will be sent from the on-board processor to the 
+            flight controller which controls the motors of the drone. Simultaneously, telemetry data will be 
+            sent back to the ground control station for the user to view. This telemetry will include important 
+            flight information such as the video feed, lidar data, and drone location.`
+        ],
+        image: "images/autonomousDrone.JPG",
+        video: null,
+        technologies: ["Python", "C++", "CUDA", "Computer Vision", "LiDAR", "TKinter", "MavLink", "Jetson Orin Nano"],
+        github: "https://github.com/UofA-ECE413/HeartMonitor"
+    },
+    {
+        title: "Heart Tracker System",
+        description: `Full stack web application paired with IoT sensors that allow 
+            users to monitor their heart rate and oxygen saturation over time.`,
+        paragraphs: [`This project is a full stack web application that allows for users 
+            to monitor the heart of their health by tracking and viewing data collected by 
+            two IoT sensors. The 2 sensors, heart rate sensor and oxygen saturation sensor, 
+            transfer their data to the cloud using Argon's API, which are then fetched and 
+            stored within our MongoDB database. Users can view their average history for the 
+            past 7 days or they can choose a specific day to view a graphed plot of their 
+            heart rate and oxygen saturation over time. The web application uses password hashing 
+            to maintain security as well as token authentication for managing user access.`,
+            `The frontend of this project was implemented using HTML, CSS, and Javascript. 
+            Ajax was used to assist in the API calls from the frontend. The backend was implemented 
+            using Express.js and contained several REST APIs which were called upon by the frontend. 
+            The backend used a MongoDB database to store user and sensor data. The web application 
+            was hosted on an Amazon EC2 server. The Particle Argon IoT device interfaced with the 
+            MAX30102 heart rate and Spo2 sensor using c++ to take sensor reading and upload them to 
+            the cloud.`
+        ],
+        image: "images/heartTrack.JPG",
+        video: "videos/heartTrack.mp4",
+        technologies: ["HTML", "Javascript", "CSS", "Ajax", "Express.js", "MongoDB", "C++","IoT Sensors", "Amazon EC2", "Argon"],
+        github: "https://github.com/UofA-ECE413/HeartMonitor"
+    },
+    {
+        title: "Pharmacy Management System",
+        description: `Full stack web application for managing a Pharmacy. It allows users 
+            to manage inventory, sell products, and generate automatic reports.`,
+        paragraphs: [`This project is a full stack web application that allows for different 
+            pharmacy staff to manage their system. It was created as a part of my software 
+            management class (SFWE 403) with 4 teammates. The application was programmed using 
+            the SvelteKit framework for frontend and backend, with Tailwind used for the majority 
+            of styling. In addition, it used the Cloudflare D1 database, which is a based on SQLite, 
+            and was deployed using Cloudflare Pages.`,
+            `The website supports 4 types of users: manager, pharmacist, technician, and cashier. 
+            The manager has access to core pages such as inventory management, patient information, 
+            prescription information, and all account information for adding and managing each staff 
+            member's account. Similarly, the pharmacist has access to manage inventory and prescriptions, 
+            with the additional ability to fill prescriptions. Lastly, the technician and cashier have 
+            similar access as they can both conduct the checkout process for costumers as well as view 
+            reporting and logging information regarding the pharmacy.`
+        ],
+        image: "images/pharmacy.JPG",
+        video: "videos/pharmacy.mp4",
+        technologies: ["SvelteKit", "Typescript", "HTML", "CSS", "Tailwind", "SQL", "Cloudflare", "GitLab"],
+        github: "https://gitlab.com/jath03/dev-legacy-pharmacy"
+    },
+    {
         title: "NBA Game Predictor",
         description: `This project leverages the Scikit-learn Python library to train 
             models and predict games results using various kinds of machine learning models. 
